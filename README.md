@@ -16,12 +16,12 @@ Code
 ```
 ![carbon](https://github.com/Yusufsertkaya/Ekocop-Digital-Meter/assets/125422424/02c02cf4-5d7a-4ebc-9ad7-fa1d8cbe767c)
 ```
-Here is teh circuit Diagram 
+Here is the circuit Diagram 
 ```
 ![Screenshot 2024-04-10 032347](https://github.com/Yusufsertkaya/Ekocop-Digital-Meter/assets/125422424/c3950c85-2359-4cdd-8e06-46a065ae8657)
 
 
-**Common mistakes **
+Common mistakes 
 ---
 
 
@@ -45,7 +45,7 @@ You can verify this using a multimeter in continuity test mode.
 ![IMG_20190924_203650](https://github.com/Yusufsertkaya/Ekocop-Digital-Meter/assets/125422424/7697905e-3a5e-4d36-99ec-e869be72bce1)
 
 ```
-"Be cautious of these mistakes, as they could jeopardize your project."
+"Be cautious of these mistakes, as they could ruin your project."
 
 ```
 
