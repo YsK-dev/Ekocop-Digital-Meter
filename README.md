@@ -11,9 +11,14 @@
 ```
 Just download the liquid crystal library
 https://github.com/arduino-libraries/LiquidCrystal
-from here and add the lıbrary as a zip file 
+from here and add the lıbrary as a zip file
+Code
 ```
 ![carbon](https://github.com/Yusufsertkaya/Ekocop-Digital-Meter/assets/125422424/02c02cf4-5d7a-4ebc-9ad7-fa1d8cbe767c)
+```
+Here is teh circuit Diagram 
+```
+![Screenshot 2024-04-10 032347](https://github.com/Yusufsertkaya/Ekocop-Digital-Meter/assets/125422424/c3950c85-2359-4cdd-8e06-46a065ae8657)
 
 
 **Common mistakes **
@@ -27,7 +32,8 @@ from here and add the lıbrary as a zip file
 ```
 ![Screenshot 2024-04-10 041425](https://github.com/Yusufsertkaya/Ekocop-Digital-Meter/assets/125422424/5a6f6d26-8c8c-4fc1-9dd6-10310075a287)
 ```
-The most important issue is to check whether the cabling is done correctly. You can verify this using a multimeter in continuity test mode.
+The most important issue is to check whether the cabling is done correctly.
+You can verify this using a multimeter in continuity test mode.
 ```
 ![Screenshot 2024-04-10 041306](https://github.com/Yusufsertkaya/Ekocop-Digital-Meter/assets/125422424/581d89b4-5e3e-4b3f-a55e-79b271094e6c)
 
