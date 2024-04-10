@@ -1,0 +1,49 @@
+//The  latest library for liquid crystal 
+//https://github.com/arduino-libraries/LiquidCrystal
+//be careful to check the pins
+
+
+#include <LiquidCrystal.h>
+
+// Initialize the LCD object with the pin numbers
+LiquidCrystal lcd(12, 11, 5, 4, 3, 2);
+
+// Define the pins for ultrasonic sensor
+const int trig = 9;
+const int echo = 8;
+
+int mesafe; // Distance variable
+int sure;   // Duration variable
+
+void setup() {
+  // Set trig pin as output and echo pin as input
+  pinMode(trig, OUTPUT);
+  pinMode(echo, INPUT);
+
+  // Initialize the LCD with 16 columns and 2 rows
+  lcd.begin(16, 2);
+}
+
+void loop() {
+  // Send a pulse to the trigger pin
+  digitalWrite(trig, HIGH);
+  delayMicroseconds(10); // Wait for 10 microseconds
+  digitalWrite(trig, LOW);
+
+  // Measure the duration of the pulse received on echo pin
+  sure = pulseIn(echo, HIGH);
+
+  // Convert the duration to distance in centimeters
+  // Speed of sound in air is approximately 343 m/s or 0.0343 cm/microsecond
+  mesafe = (sure / 2) / 28.5; // Divided by 2 because sound travels to the object and back
+
+  // Display the distance on the LCD
+  lcd.clear(); // Clear the LCD display
+  lcd.setCursor(0, 0); // Set cursor to the first row
+  lcd.print("Mesafe = ");
+  lcd.print(mesafe);
+  lcd.print(" cm");
+
+  // Wait for some time before taking the next measurement
+  delay(250);
+}
